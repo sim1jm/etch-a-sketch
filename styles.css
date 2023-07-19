@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div.grid {
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+div.squares {
+    border-style: solid;
+    border-color: black;
+}
