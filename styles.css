@@ -4,21 +4,32 @@ body {
 }
 
 button {
-    margin: 16px auto 24px auto;
     padding: 8px 16px 8px 16px;
     font-size: 20px;
-    display: block;
+}
+
+div.buttons {
+    margin: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.grid,
+div.square {
+    border-width: 1px;
 }
 
 div.grid {
     border-style: solid;
     border-color: black;
+    height: 800px;
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
 }
 
-div.squares {
+div.square {
     border-style: solid;
     border-color: black;
 }
